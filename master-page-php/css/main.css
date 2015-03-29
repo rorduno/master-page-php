@@ -1,0 +1,30 @@
+ul{
+	text-align:center;
+}
+li {
+	list-style-type: none;
+    display: inline;
+	
+}
+a {
+	font-weight:bold;
+	color:#ffffff;
+	padding:5px;
+	text-decoration: none;
+    background-color: #69D2E7;
+}
+a:hover {
+    background-color: #A7DBD8;
+}
+/* Styles the active link */
+.active{
+	background-color:#F38630;
+}
+section{
+	width:975px;
+	margin-left: auto;
+    margin-right: auto;
+}
+footer{
+	text-align:center;
+}

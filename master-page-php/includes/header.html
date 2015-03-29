@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- css-->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<title><?php echo $page_title; ?></title>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a  <?php if ($thisPage=="index") echo " class=\"active\""; ?> href="index.php">home</a></li>
+				<li><a  <?php if ($thisPage=="about") echo " class=\"active\""; ?> href="about.php">about</a></li>
+				<li><a  <?php if ($thisPage=="contact") echo " class=\"active\""; ?> href="contact.php">contact</a></li>
+				<li><a  <?php if ($thisPage=="other") echo " class=\"active\""; ?>	href="other.php">other</a></li>
+			</ul>
+		</nav>	
+		<section>
