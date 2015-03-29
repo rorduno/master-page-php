@@ -8,10 +8,12 @@
 	<body>
 		<nav>
 			<ul>
+				<!-- Class active only assigns if you are on the right page
+				giving it distinct active style -->
 				<li><a  <?php if ($thisPage=="index") echo " class=\"active\""; ?> href="index.php">home</a></li>
 				<li><a  <?php if ($thisPage=="about") echo " class=\"active\""; ?> href="about.php">about</a></li>
 				<li><a  <?php if ($thisPage=="contact") echo " class=\"active\""; ?> href="contact.php">contact</a></li>
-				<li><a  <?php if ($thisPage=="other") echo " class=\"active\""; ?>	href="other.php">other</a></li>
+				<li><a  <?php if ($thisPage=="other") echo " class=\"active\""; ?> href="other.php">other</a></li>
 			</ul>
 		</nav>	
 		<section>
